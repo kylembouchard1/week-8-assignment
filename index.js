@@ -1,4 +1,5 @@
 // Squads and Heros on those Squads
+
 class Hero {//here is my first class//
     constructor(name, power) { 
     this.name = name;
@@ -10,6 +11,7 @@ class Hero {//here is my first class//
     return `${this.name} superpower is ${this.power}`;
     }
     }
+    
     class Squad { //here is a second class//
     constructor(name) {
     this.name = name;
@@ -29,6 +31,7 @@ class Hero {//here is my first class//
     return `${this.name} has ${this.Heros.length} Heros.`;
     }
     }
+    
     class Menu { //the beginning of the menu & third created class//
     constructor() {
     this.Squads = []; //here is a second array//
